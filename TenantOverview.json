@@ -21,7 +21,7 @@
  },
  "tiles": [
   {
-   "name": "User Sessions Query",
+   "name": "Tester! User Sessions Query",
    "tileType": "DTAQL",
    "configured": true,
    "bounds": {
