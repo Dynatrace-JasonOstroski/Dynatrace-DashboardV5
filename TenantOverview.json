@@ -21,7 +21,7 @@
  },
  "tiles": [
   {
-   "name": "Tester! User Sessions Query",
+   "name": "User Sessions Query",
    "tileType": "DTAQL",
    "configured": true,
    "bounds": {
@@ -34,7 +34,7 @@
     "timeframe": null,
     "managementZone": null
    },
-   "customName": "Duration",
+   "customName": "JASON Duration",
    "query": "select DISTINCT DATETIME(starttime, \"HH:mm\", \"10m\") as \"Time\", avg(useraction.duration) as \"Duration\" from useraction",
    "type": "COLUMN_CHART"
   },
