@@ -7,7 +7,7 @@
  },
  "id": "fbe8d3b1-ccb9-480c-9e5d-0e1b8b4da313",
  "dashboardMetadata": {
-  "name": "\ud83d\ude80 Tenant Overview",
+  "name": "\ud83d\ude80 Tenant Overview JaSoN",
   "shared": true,
   "owner": "MyEmail",
   "sharingDetails": {
@@ -34,7 +34,7 @@
     "timeframe": null,
     "managementZone": null
    },
-   "customName": "JASON Duration",
+   "customName": "Duration",
    "query": "select DISTINCT DATETIME(starttime, \"HH:mm\", \"10m\") as \"Time\", avg(useraction.duration) as \"Duration\" from useraction",
    "type": "COLUMN_CHART"
   },
